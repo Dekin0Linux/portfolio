@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root{
+    --blue : #057ae8;
+    /* --blue : #3affa2; */
+    --hero-gradient : linear-gradient(90deg, rgb(238, 249, 255) 61%, rgba(139, 232, 255, 0.834) 100%);
+    /* --hero-gradient : linear-gradient(90deg, rgb(238, 249, 255) 61%, rgba(28, 255, 39, 0.834) 100%); */
+    --main-bg : #f1fcff;
+    --main-font : 'Roboto';
+    --gray-text : #878787;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.text-gray{
+    color: var(--gray-text);
+}
+.text-primary{
+    color: var(--blue) !important;
+}
+.btn-primary{
+    background-color: var(--blue) !important;
+}
+body{
+    background: var(--main-bg);
+    font-family: var(--main-font);
+}
+.hero{
+    background: var(--hero-gradient);
+}
+.sub{
+    position: relative;
+}
+.sub::before{
+    content: '';
+    width: 50%;
+    height: 5px;
+    background-color: tomato;
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+}
+.footer{
+    background:var(--blue);
+}
