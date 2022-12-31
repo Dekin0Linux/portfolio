@@ -3,12 +3,20 @@
 :root{
     --blue : #057ae8;
     /* --blue : #3affa2; */
-    --hero-gradient : linear-gradient(90deg, rgb(238, 249, 255) 61%, rgba(139, 232, 255, 0.834) 100%);
+    --hero-gradient : linear-gradient(170deg, rgb(238, 249, 255) 40%,rgba(139, 232, 255, 0.834) 100%);
     /* --hero-gradient : linear-gradient(90deg, rgb(238, 249, 255) 61%, rgba(28, 255, 39, 0.834) 100%); */
-    --main-bg : #f1fcff;
+    --main-bg : #e7f9ff;
     --main-font : 'Roboto';
     --gray-text : #878787;
 }
+.dark-mode{
+    --main-bg : #00161f;
+    --gray-text : #edeeee;
+    --blue : #ffffff;
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
